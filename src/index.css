@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+/* ---------------custom scrollbar---------------- */
+::-webkit-scrollbar {
+  width: 1rem;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+
+@layer components {
+  .icon_wrap {
+    @apply border border-gray-400 rounded-full w-[50px] 
+    h-[50px] grid place-items-center text-[22px]
+  }
+}
