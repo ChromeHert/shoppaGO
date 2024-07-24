@@ -1,4 +1,4 @@
-import React from 'react'
+import { React } from 'react'
 import logo from '../assets/shoppaLogo.svg';
 import { BsSearch } from 'react-icons/bs';
 import { AiOutlineShoppingCart, AiOutlineUser } from 'react-icons/ai';
@@ -7,6 +7,7 @@ import CartBadge from './CartBadge';
 
 
 const Nav = () => {
+
   return (
       <>
           <div className="sticky top-0 bg-white z-10">
@@ -36,7 +37,7 @@ const Nav = () => {
               </div>
           </div>
       </>
-  )
+  );
 }
 
 export default Nav
