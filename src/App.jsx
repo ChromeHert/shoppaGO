@@ -4,6 +4,7 @@ import MobileNav from './Components/MobileNav';
 import Hero from './Components/Hero';
 import HeroII from './Components/HeroII';
 import Category from './Components/Category';
+import FeatureSection from './Components/FeatureSection';
 
 
 
@@ -15,6 +16,7 @@ const App = () => {
      <Hero/>
      <HeroII/>
      <Category/>
+     <FeatureSection/>
     </>
   )
 }
