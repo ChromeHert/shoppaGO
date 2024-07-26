@@ -9,16 +9,16 @@ import ProductCard from './ProductCard';
 
 const data = [
     {
-        id: 0, img: heroImg1, name: "Dried Fruits", price: "&#8358; 1,800"
+        id: 0, img: heroImg1, name: "Dried Fruits", price: "₦ 1,800"
     },
-    {id: 1, img: heroImg6, name: "Veggies", price: "&#8358; 500"
-
+    {
+        id: 1, img: heroImg6, name: "Veggies", price: "₦ 500"
     },
-    {id: 2, img: heroImg3, name: "Crunchy Crisp", price: "&#8358; 750"
-
+    {
+        id: 2, img: heroImg3, name: "Crunchy Crisp", price: "₦ 750"
     },
-    {id: 3, img: heroImg7, name: "Nuts & Fruits", price: "&#8358; 2,500"
-
+    {
+        id: 3, img: heroImg7, name: "Nuts & Fruits", price: "₦ 2,500"
     },
 ]
 
@@ -66,6 +66,8 @@ const FeatureSection = () => {
                 ))}
             </div>
         </div> 
+
+        
     </>
   )
 }
